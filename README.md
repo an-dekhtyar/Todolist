@@ -1,6 +1,6 @@
 # Todolist 📝:
 
-![ReactPizza](https://ibb.co/TMYGxkB)
+![ReactPizza](https://cdn1.savepice.ru/uploads/2021/8/16/3a89242f78ad6ee0ef0eb156f877e477-full.png)
 
 React Pizza - это интернет-магазин для заказа пиццы.
 
