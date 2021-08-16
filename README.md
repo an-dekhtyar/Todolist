@@ -1,6 +1,6 @@
 # Todolist 📝:
 
-![ReactPizza](https://startinfinity.s3.us-east-2.amazonaws.com/production/blog/post/15/main/xXMabYYezGITsPPA8PduAZXEmXvz0Xr71FEQGqy4.png)
+![ReactPizza](http://prntscr.com/1ps3lmp)
 
 React Pizza - это интернет-магазин для заказа пиццы.
 
