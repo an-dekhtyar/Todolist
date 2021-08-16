@@ -1,6 +1,6 @@
 # React Pizza :pizza:
 
-![ReactPizza](https://repository-images.githubusercontent.com/286972844/62947000-eb8e-11ea-8157-c31608df9206)
+![ReactPizza](https://startinfinity.s3.us-east-2.amazonaws.com/production/blog/post/15/main/xXMabYYezGITsPPA8PduAZXEmXvz0Xr71FEQGqy4.png)
 
 React Pizza - это интернет-магазин для заказа пиццы.
 
