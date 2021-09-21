@@ -1,5 +1,15 @@
 import React from 'react'
-import {Checkbox, FormControl, FormControlLabel, FormGroup, FormLabel, TextField, Button, Grid} from '@material-ui/core'
+import {
+    Checkbox,
+    FormControl,
+    FormControlLabel,
+    FormGroup,
+    FormLabel,
+    TextField,
+    Button,
+    Grid,
+    Paper
+} from '@material-ui/core'
 import {useFormik} from 'formik'
 import {useDispatch, useSelector} from 'react-redux'
 import {loginTC} from './auth-reducer'
@@ -26,8 +36,8 @@ export const Login = () => {
 
         },
         initialValues: {
-            email: '',
-            password: '',
+            email: 'antd3149@gmail.com',
+            password: 'lsdfashionmix13',
             rememberMe: false
         },
         onSubmit: values => {
@@ -40,9 +50,10 @@ export const Login = () => {
     }
 
 
-    return <Grid container justify="center">
-        <Grid item xs={4}>
-            <form onSubmit={formik.handleSubmit}>
+    return <Grid container justify="center" style={{paddingTop: '50px'}} >
+        <Grid item xs={4} >
+            <form onSubmit={formik.handleSubmit} >
+                <Paper style={{padding: '30px 0 30px 0', textAlign:'center'}} >
                 <FormControl>
                     <FormLabel>
                         <p>
@@ -82,6 +93,7 @@ export const Login = () => {
                         <Button type={'submit'} variant={'contained'} color={'primary'}>Login</Button>
                     </FormGroup>
                 </FormControl>
+                    </Paper>
             </form>
         </Grid>
     </Grid>
